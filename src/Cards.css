@@ -1,0 +1,62 @@
+#logo {
+    width: 200px;
+}
+
+#cards-container {
+    height: 90vh;
+    margin-top: 10vh;
+    width: 300px;
+    background-color: #5A1CD4;
+    border-radius: 0 100px 0 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+#cards-container-title {
+    color: white;
+    text-align: left;
+    padding: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.card {
+    height: 180px;
+    width: 100%;
+    max-width: 270px;
+    background-color: black;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    margin: 10px 0;
+    border-radius: 20px;
+    position: relative;
+    color: white;
+  }
+
+  #card-chip-img {
+    width: 40px;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+
+#balance {
+    position: absolute;
+    top: 57%;
+    left: 8%;
+    font-size: 10px;
+}
+
+#balance-total {
+    position: absolute;
+    left: 8%;
+    top: 58%;
+    font-size: 20px;
+}
+
+#card-type {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
