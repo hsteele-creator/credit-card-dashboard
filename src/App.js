@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Cards from "./Cards"
+import Dashboard from './Dashboard';
 
 function App() {
   return (
-      <Cards />
+      <Dashboard />
   );
 }
 
