@@ -1,0 +1,14 @@
+#transactions-main {
+    margin: 0;
+    height: 97vh;
+    width: 100%;
+    background-color: #F7FBFE;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+#transaction-title {
+    text-align: center;
+}

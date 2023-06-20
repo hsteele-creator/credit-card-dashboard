@@ -1,10 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Dashboard from './Dashboard';
+import "./App.css";
+import Dashboard from "./Dashboard";
+import Transactions from "./Transactions";
+import Profile from "./Profile";
 
 function App() {
   return (
-      <Dashboard />
+    <>
+      <div id="main">
+        <Dashboard />
+
+        <div id="transactions-profile">
+          <Profile />
+          <Transactions />
+        </div>
+      </div>
+    </>
   );
 }
 

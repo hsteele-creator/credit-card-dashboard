@@ -1,6 +1,15 @@
+import { logDOM } from "@testing-library/react";
+import React from "react";
+import apple from "./apple-logo.png";
+import mcdonalds from "./mcdonalds.png";
+import starbucks from "./starbucks.png";
+import samsung from "./samsung.png";
+import appStore from "./app-store.png";
+
+
 export const Data = {
     currentUser: "John",
-    currentCard: 0,
+    currentCard: 2,
     cardIndex: 0,
     John: {
       name: "John Johnson",
@@ -16,9 +25,9 @@ export const Data = {
           balance: `24,000`,
           active: true,
           transactions: [
-            { price: "-5", transaction: "Starbucks", negative: true },
-            { price: "1,000", transaction: "Paycheck", negative: false },
-            { price: "-125", transaction: "Red Sox Tickets", negative: true },
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "0:642 AM", date : "06/19/2023"},
+            {title : "Air Pods", image : apple, price : "150.15", time : "0:916 AM", date : "07/23/2022"},
+            {title : "Tablet", image : samsung, price : "212.30", time : "0: 1142 AM", date : "06/27/2023"}
           ],
         },
         {

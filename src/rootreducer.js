@@ -1,10 +1,17 @@
 import { Data } from "./Data";
-console.log(Data)
-
-const INITIAL_STATE = {Data};
+const INITIAL_STATE = { Data };
 
 const rootReducer = (state = INITIAL_STATE, action) => {
+  switch (action.type) {
+    case "UPDATE_CARD":
+      return {
+        Data: {
+          ...Data,
+          currentCard: action.payload.card,
+        },
+      };
+  }
+  return state;
+};
 
-}
-
-export default rootReducer
+export default rootReducer;

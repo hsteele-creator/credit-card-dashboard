@@ -1,15 +1,15 @@
 import React from "react";
-import { Data } from "./Data";
 import "./Cards.css";
 import chip from "./chip.png";
 import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { updateCurrentCard } from "./ActionCreators";
 
 const Cards = () => {
-  const currentCards = Data[Data.currentUser].cards;
-
-  const [active, setActive] = useState(0);
-  const activeCard = currentCards[active];
-  console.log(activeCard)
+  const dispatch = useDispatch();
+  const store = useSelector(state => state.Data);
+  const currentCards = store[store.currentUser].cards;
+  const currentCard = currentCards[store.currentCard];
   return (
     <>
 
@@ -18,7 +18,7 @@ const Cards = () => {
 
         {currentCards.map((card, i) => {
           return (
-            <div className={activeCard.cardNumber === card.cardNumber ? "active-card" : "card"} onClick={() => setActive(i)}>
+            <div className={currentCard.cardNumber === card.cardNumber ? "active-card" : "card"} onClick={() => dispatch(updateCurrentCard(i))}>
               <img id="card-chip-img" src={chip} />
               <p id="balance">Balance</p>
               <p id="balance-total">${card.balance}</p>
