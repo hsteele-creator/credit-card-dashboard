@@ -2,18 +2,15 @@ import "./App.css";
 import Dashboard from "./Dashboard";
 import Transactions from "./Transactions";
 import Profile from "./Profile";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <div id="main">
-        <Dashboard />
-
-        <div id="transactions-profile">
-          <Profile />
-          <Transactions />
-        </div>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
