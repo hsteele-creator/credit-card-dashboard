@@ -5,6 +5,9 @@ import mcdonalds from "./mcdonalds.png";
 import starbucks from "./starbucks.png";
 import samsung from "./samsung.png";
 import appStore from "./app-store.png";
+import netflix from "./netflix.png";
+import youtube from "./youtube.png";
+import amazon from "./amazon-pay.png";
 
 
 export const Data = {
@@ -26,8 +29,13 @@ export const Data = {
           active: true,
           transactions: [
             {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
-            {title : "Air Pods", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
-            {title : "Tablet", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"}
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Mcdonald's", image : mcdonalds, price : "7.50", time : "1:22 AM", date : "03/17/2023"},
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Amazon", image : amazon, price : "123.50", time : "12:22 PM", date : "03/17/2023"}
           ],
         },
         {
@@ -38,9 +46,15 @@ export const Data = {
           cvv: 183,
           balance: `125`,
           transactions: [
-            { price: "-7.50", transaction: "Walgreens", negative: true },
-            { price: "-1,800", transaction: "Rent", negative: true },
-            { price: "-85", transaction: "Karate Lessons", negative: true },
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Amazon", image : amazon, price : "123.50", time : "12:22 PM", date : "03/17/2023"}
           ],
         },
         {
@@ -51,9 +65,14 @@ export const Data = {
           cvv: 410,
           balance: `870`,
           transactions: [
-            { price: "-350", transaction: "Car Payment", negative: true },
-            { price: "120", transaction: "Birthday Gift", negative: false },
-            { price: "-180", transaction: "Plumber Fees", negative: true },
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Amazon", image : amazon, price : "123.50", time : "12:22 PM", date : "03/17/2023"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Mcdonald's", image : mcdonalds, price : "7.50", time : "1:22 AM", date : "03/17/2023"},
           ],
         },
       ],
@@ -77,9 +96,14 @@ export const Data = {
           cvv: 268,
           balance: `2,500`,
           transactions: [
-            { price: "-12", transaction: "Pizza", negative: true },
-            { price: "1,400", transaction: "Paycheck", negative: false },
-            { price: "-80", transaction: "Broadway Tickets", negative: true },
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Amazon", image : amazon, price : "123.50", time : "12:22 PM", date : "03/17/2023"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Mcdonald's", image : mcdonalds, price : "7.50", time : "1:22 AM", date : "03/17/2023"},
           ],
         },
         {
@@ -90,9 +114,15 @@ export const Data = {
           cvv: 732,
           balance: `3,800`,
           transactions: [
-            { price: "-40", transaction: "Gas", negative: true },
-            { price: "-30", transaction: "Chinese Food", negative: true },
-            { price: "-100", transaction: "Winter Jacket", negative: true },
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Amazon", image : amazon, price : "123.50", time : "12:22 PM", date : "03/17/2023"}
           ],
         },
         {
@@ -103,9 +133,15 @@ export const Data = {
           cvv: 143,
           balance: `4,200`,
           transactions: [
-            { price: "-120", transaction: "Electric Bill", negative: true },
-            { price: "120", transaction: "Wedding Present", negative: false },
-            { price: "-1,100", transaction: "New Windows", negative: true },
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Amazon", image : amazon, price : "123.50", time : "12:22 PM", date : "03/17/2023"}
           ],
         },
       ],
@@ -129,9 +165,18 @@ export const Data = {
           cvv: 437,
           balance: `500`,
           transactions: [
-            { price: "-10", transaction: "Coffee and Donut", negative: true },
-            { price: "2,000", transaction: "Rent Payments", negative: false },
-            { price: "-40", transaction: "Ice Skating", negative: true },
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
           ],
         },
         {
@@ -142,9 +187,15 @@ export const Data = {
           cvv: 108,
           balance: `5,100`,
           transactions: [
-            { price: "-2", transaction: "711 Slurpee", negative: true },
-            { price: "-60", transaction: "New Shirts", negative: true },
-            { price: "-50", transaction: "New Sneakers", negative: true },
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "App Store", image : appStore, price : "2.80", time : "9:42 PM", date : "06/07/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+
           ],
         },
         {
@@ -155,9 +206,15 @@ export const Data = {
           cvv: 700,
           balance: `2,650`,
           transactions: [
-            { price: "-160", transaction: "Dentist Appointment", negative: true },
-            { price: "-15", transaction: "New Backpack", negative: true },
-            { price: "-300", transaction: "Graduation Gift", negative: false },
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
+            {title : "Youtube", image : youtube, price : "15.40", time : "3:18 PM", date : "09/25/2021"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Apple", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Samsung", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"},
+            {title : "Netflix", image : netflix, price : "7.50", time : "10:16 PM", date : "01/07/2023"},
           ],
         },
       ],

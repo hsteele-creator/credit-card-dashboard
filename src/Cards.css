@@ -3,11 +3,10 @@
 }
 
 #cards-container {
-    height: 85vh;
-    margin-top: 15vh;
-    width: 250px;
+    height: 90vh;
+    width: 260px;
     background-color: #5A1CD4;
-    border-radius: 0 100px 0 0;
+    border-radius: 0 100px 40px 0;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -23,19 +22,20 @@
 }
 
 .card {
-    height: 200px;
+    height: 170px;
     width: 100%;
-    max-width: 270px;
+    max-width: 250px;
     background-color: black;
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     margin: 10px 0;
     border-radius: 20px;
     position: relative;
     color: white;
+    padding: 10px;
   }
 
   .active-card {
-    height: 240px;
+    height: 200px;
     width: 100%;
     /* max-width: 270px; */
     width: 315px;
@@ -95,6 +95,28 @@
     right: 8%;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 880px) {
+    #cards-container {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+
+    .active-card {
+        height: 170px;
+        width: 250px;
+        margin-left: 0;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .card {
+        height: 170px;
+        border-radius: 20px;
+    }
 
 }

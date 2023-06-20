@@ -55,3 +55,14 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 880px) {
+    #profile-main {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #balance-container {
+        border-radius: 0 0 0 15px;
+    }
+}
