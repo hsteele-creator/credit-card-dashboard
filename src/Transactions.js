@@ -11,7 +11,6 @@ const Transactions = () => {
   const currentCards = store[store.currentUser].cards;
   const currentCard = currentCards[store.currentCard];
   const currentTransactions = currentCard.transactions;
-  console.log(currentTransactions);
 
   return (
     <>

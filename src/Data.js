@@ -22,7 +22,7 @@ export const Data = {
           month: "02",
           year: "2025",
           cvv: 631,
-          balance: `24,000`,
+          balance: `240`,
           active: true,
           transactions: [
             {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
@@ -36,7 +36,7 @@ export const Data = {
           month: "04",
           year: "2028",
           cvv: 183,
-          balance: `12,500`,
+          balance: `125`,
           transactions: [
             { price: "-7.50", transaction: "Walgreens", negative: true },
             { price: "-1,800", transaction: "Rent", negative: true },
@@ -49,7 +49,7 @@ export const Data = {
           month: "07",
           year: "2026",
           cvv: 410,
-          balance: `8,750`,
+          balance: `870`,
           transactions: [
             { price: "-350", transaction: "Car Payment", negative: true },
             { price: "120", transaction: "Birthday Gift", negative: false },

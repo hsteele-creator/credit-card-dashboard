@@ -17,9 +17,16 @@
     justify-content: center;
 }
 
-#balance-container p {
+#balance-heading {
     margin: 0;
     color: white;
     font-size: 10px;
     font-weight: 150;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin: 0;
 }
