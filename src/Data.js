@@ -25,9 +25,9 @@ export const Data = {
           balance: `24,000`,
           active: true,
           transactions: [
-            {title : "Starbucks", image : starbucks, price : "15.75", time : "0:642 AM", date : "06/19/2023"},
-            {title : "Air Pods", image : apple, price : "150.15", time : "0:916 AM", date : "07/23/2022"},
-            {title : "Tablet", image : samsung, price : "212.30", time : "0: 1142 AM", date : "06/27/2023"}
+            {title : "Starbucks", image : starbucks, price : "15.75", time : "6:42 AM", date : "06/19/2023"},
+            {title : "Air Pods", image : apple, price : "150.15", time : "9:16 AM", date : "07/23/2022"},
+            {title : "Tablet", image : samsung, price : "212.30", time : "11:42 AM", date : "06/27/2023"}
           ],
         },
         {
