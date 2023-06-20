@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Nav />
         <Routes>
           <Route path="/" element={<Dashboard />} />
         </Routes>
