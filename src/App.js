@@ -1,7 +1,6 @@
 import "./App.css";
 import Dashboard from "./Dashboard";
-import Transactions from "./Transactions";
-import Profile from "./Profile";
+import TransactionsPage from "./TransactionsPage"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./Nav";
 function App() {
@@ -10,6 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/transactions" element={<TransactionsPage/>} />
         </Routes>
       </BrowserRouter>
     </>

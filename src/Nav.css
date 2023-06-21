@@ -13,9 +13,9 @@
     color: grey;
     text-decoration: none;
     font-weight: bold;
+    padding: 0 5px;
 }
 
 #nav a.active {
     color: black;
-    font-size: 20px;
 }

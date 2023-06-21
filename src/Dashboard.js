@@ -9,10 +9,10 @@ const Dashboard = () => {
 
     return (
         <>
-        <div id="main">
+        <div className="main">
         <Cards />
         <Nav />
-        <div id="transactions-profile">
+        <div className="transactions-profile">
             <Profile />
             <Transactions />
         </div>

@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-#main {
+.main {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -12,12 +12,12 @@
   padding: 0;
 }
 
-#transactions-profile {
+.transactions-profile {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 33%;
+  width: 33vw;
   background-color: #F7FBFE;
 }
 
@@ -57,11 +57,14 @@
 }
 
 @media screen and (max-width: 880px) {
-  #main {
+  .main {
     display: block;
+    width: 100%;
   }
 
-  #transactions-profile {
-    width: 100vw;
+  .transactions-profile {
+    width: 100%;
   }
+
+
 }

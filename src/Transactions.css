@@ -3,10 +3,10 @@
     height: 97vh;
     width: 100%;
     background-color: #F7FBFE;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 #transaction-title {
@@ -16,11 +16,10 @@
 @media screen and (max-width: 880px) {
 
         #transactions-main {
-            margin: 0 auto;
             height: 100%;
             width: 100%;
-            margin: 0;
-            padding: 10px;
+            margin: 0 auto;
+            padding: 25px;
         }
         
     }
