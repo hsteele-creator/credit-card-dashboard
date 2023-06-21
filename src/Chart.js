@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import "./Chart.css";
 import Avatars from "./Avatars";
+import CardInfo from "./CardInfo";
 import { useSelector } from "react-redux";
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Tooltip, Legend } from "chart.js";
@@ -32,6 +33,7 @@ const Chart = () => {
             ]
         }} />
         </div>
+        <CardInfo />
         </div>
         </>
     )

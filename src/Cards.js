@@ -14,7 +14,7 @@ const Cards = () => {
     <>
 
       <div id="cards-container">
-        <h2 id="cards-container-title">My Cards</h2>
+        <h2 id="cards-container-title">My <span>Cards</span> </h2>
 
         {currentCards.map((card, i) => {
           return (

@@ -10,6 +10,12 @@
 
 #transaction-title {
     text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+#transaction-title span {
+    font-weight: 200;
 }
 
 @media screen and (max-width: 1350px) {

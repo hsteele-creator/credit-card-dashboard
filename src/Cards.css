@@ -3,7 +3,7 @@
 }
 
 #cards-container {
-    height: 90vh;
+    height: 85vh;
     width: 260px;
     background-color: #5A1CD4;
     border-radius: 0 100px 40px 0;
@@ -13,17 +13,24 @@
     align-items: center;
     text-align: left;
     max-height: 1000px;
+    justify-content: center;
 }
+
 
 #cards-container-title {
     color: white;
     text-align: left;
     padding: 0 100px 20px 0;
     font-size: 30px;
+    font-weight: 600;
+}
+
+#cards-container span {
+    font-weight: 200;
 }
 
 .card {
-    height: 170px;
+    height: 140px;
     width: 100%;
     max-width: 250px;
     background-color: black;
@@ -36,7 +43,7 @@
   }
 
   .active-card {
-    height: 200px;
+    height: 180px;
     width: 100%;
     /* max-width: 270px; */
     width: 315px;

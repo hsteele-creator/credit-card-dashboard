@@ -15,7 +15,7 @@ const Transactions = () => {
   return (
     <>
       <div id="transactions-main">
-        <h2 id="transaction-title">Card History</h2>
+        <h2 id="transaction-title">Card <span>History</span></h2>
         {currentTransactions.map((transaction) => {
           return (
             <Transaction

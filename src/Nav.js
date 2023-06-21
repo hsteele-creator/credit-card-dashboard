@@ -7,7 +7,7 @@ const Nav = () => {
         <>
         <div id="nav">
         <NavLink to="/">Dashboard</NavLink>
-        <NavLink to="/transactions">Transactions</NavLink>
+        {/* <NavLink to="/transactions">Transactions</NavLink> */}
         </div>
         </>
     )

@@ -9,12 +9,17 @@
     width: 100%;
     /* margin-top: 50px; */
     margin-left: 100px;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 880px) {
     #bar-container {
         margin: 10px 0;
+        width: 100%;
+    }
+
+    #charts-main {
+        display: block;
         width: 100%;
     }
 }
