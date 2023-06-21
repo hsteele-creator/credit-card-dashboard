@@ -10,7 +10,9 @@ const Profile = () => {
     .map((string) => Number(string))
     .reduce((acc, next) => acc + next);
   const currentUserImage = store[store.currentUser].image;
-  const currentUserName = store[store.currentUser].name.split(" ")[0];
+  // const currentUserName = store[store.currentUser].name.split(" ")[0];
+  const currentUserName = store.currentUser;
+
 
   return (
     <>

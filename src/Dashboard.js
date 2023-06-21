@@ -3,7 +3,6 @@ import Cards from "./Cards";
 import Profile from "./Profile";
 import Transactions from "./Transactions";
 import "./App.css";
-import Nav from "./Nav";
 import Chart from "./Chart";
 
 const Dashboard = () => {

@@ -10,6 +10,13 @@ const rootReducer = (state = INITIAL_STATE, action) => {
           currentCard: action.payload.card,
         },
       };
+    case "UPDATE_USER":
+      return {
+        Data: {
+          ...Data,
+          currentUser: action.payload.name,
+        },
+      };
   }
   return state;
 };
