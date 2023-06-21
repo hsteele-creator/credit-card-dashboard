@@ -1,7 +1,6 @@
 #transactions-main {
     margin: 0;
     height: 97vh;
-    width: 100%;
     background-color: #F7FBFE;
     /* padding: 20px; */
     display: flex;
@@ -17,9 +16,7 @@
 
         #transactions-main {
             height: 100%;
-            width: 100%;
-            margin: 0 auto;
-            padding: 25px;
+            width: 100vw;
         }
         
     }

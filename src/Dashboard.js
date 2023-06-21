@@ -4,6 +4,7 @@ import Profile from "./Profile";
 import Transactions from "./Transactions";
 import "./App.css";
 import Nav from "./Nav";
+import Chart from "./Chart";
 
 const Dashboard = () => {
 
@@ -11,7 +12,7 @@ const Dashboard = () => {
         <>
         <div className="main">
         <Cards />
-        <Nav />
+        <Chart />
         <div className="transactions-profile">
             <Profile />
             <Transactions />
