@@ -25,7 +25,8 @@ const Chart = () => {
                     backgroundColor : "#5A1CD4",
                     title : "Price",
                     borderRadius: 3,
-                    categoryPercentage: 0.75
+                    categoryPercentage: 0.75,
+                    responsive : true
                 }
             ]
         }} />
