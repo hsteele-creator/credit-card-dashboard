@@ -4,12 +4,13 @@
 
 .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: none;
 }
 
 .transactions-profile {
@@ -56,14 +57,26 @@
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1360px) {
   .main {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  #root {
+    background-color: blue;
   }
 
   .transactions-profile {
-    width: 100%;
+    width: 100vw;
   }
 
 

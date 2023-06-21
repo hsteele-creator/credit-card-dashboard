@@ -59,9 +59,10 @@
 @media screen and (max-width: 880px) {
     #profile-main {
         width: 100%;
+        border-radius: 0;
     }
 
     #balance-container {
-        border-radius: 0 0 0 15px;
+        border-radius: 0 0 0 0;
     }
 }
