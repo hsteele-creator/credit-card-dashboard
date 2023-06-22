@@ -18,6 +18,37 @@
     font-weight: 200;
 }
 
+#search-form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 0 auto;
+}
+
+#search-form input {
+    padding: 10px;
+    margin: 0 20px;
+    width: 200px;
+}
+
+#search-button {
+    background-color: #5A1CD4;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+#search-button:hover {
+    cursor: pointer;
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid #5A1CD4;
+}
+
 @media screen and (max-width: 1350px) {
 
         #transactions-main {
