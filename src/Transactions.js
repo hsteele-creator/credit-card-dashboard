@@ -22,7 +22,7 @@ const Transactions = () => {
     if(search === "") {
       return currentTransactions
     } else {
-      return currentTransactions.filter(transaction => transaction.title.includes(search))
+      return currentTransactions.filter(transaction => transaction.title.includes(search.toLowerCase()))
     }
   }
 
