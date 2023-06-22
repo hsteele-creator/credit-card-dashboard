@@ -17,22 +17,22 @@ const rootReducer = (state = INITIAL_STATE, action) => {
           currentUser: action.payload.name,
         },
       };
-    case "ADD_CARD":
-      const updatedCards = [
-        ...state.Data[action.payload.name].cards,
-        action.payload.data,
-      ];
-      const currentUser = action.payload.name;
-      return {
-        ...state,
-        Data: {
-          ...Data,
-          [currentUser]: {
-            ...Data[currentUser],
-            cards: updatedCards,
-          },
-        },
-      };
+    // case "ADD_CARD":
+    //   const updatedCards = [
+    //     ...state.Data[action.payload.name].cards,
+    //     action.payload.data,
+    //   ];
+    //   const currentUser = action.payload.name;
+    //   return {
+    //     ...state,
+    //     Data: {
+    //       ...Data,
+    //       [currentUser]: {
+    //         ...Data[currentUser],
+    //         cards: updatedCards,
+    //       },
+    //     },
+    //   };
   }
   return state;
 };

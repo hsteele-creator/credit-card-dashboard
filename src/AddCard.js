@@ -76,6 +76,7 @@ const AddCard = () => {
         type: "ADD_CARD",
         payload: { name: currentUser, data: cardData },
       });
+      console.log(cardData);
     } else {
       alert("Make sure all inputs are not blank, and the correct type!");
     }
