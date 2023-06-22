@@ -5,7 +5,7 @@ const Transaction = ({ title, image, price, date, time }) => {
   return (
     <>
       <div className="transaction-main">
-        <img className="transaction-image" src={image} />
+          <img className="transaction-image" src={image} />
 
         <div className="title-price">
           <p>{title}</p>

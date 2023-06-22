@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     /* box-sizing: border-box; */
+    overflow: hidden;
 }
 
 #transaction-title {
@@ -19,7 +20,6 @@
 }
 
 #search-form {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -52,7 +52,7 @@ input {
 @media screen and (max-width: 1350px) {
 
         #transactions-main {
-            height: 100%;
+            height: 700px;
             width: 100%;
         }
         
