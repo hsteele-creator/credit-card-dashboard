@@ -19,12 +19,12 @@ const Cards = () => {
         {currentCards.map((card, i) => {
           return (
             <div className={currentCard.cardNumber === card.cardNumber ? "active-card" : "card"} onClick={() => dispatch(updateCurrentCard(i))}>
-              <img id="card-chip-img" src={chip} />
-              <p id="balance">Balance</p>
-              <p id="balance-total">${card.balance}</p>
-              <p id="card-type">{card.cardType}</p>
-              <p id="expiration">Good Thru</p>
-              <p id="card-date">{card.month}/{card.year}</p>
+              <img className="card-chip-img" src={chip} />
+              <p className="balance">Balance</p>
+              <p className="balance-total">${card.balance}</p>
+              <p className="card-type">{card.cardType}</p>
+              <p className="expiration">Good Thru</p>
+              <p className="card-date">{card.month}/{card.year}</p>
             </div>
           );
         })}

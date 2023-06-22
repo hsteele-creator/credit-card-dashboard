@@ -2,9 +2,8 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    width: 63%;
+    /* width: 63%; */
     display: inline-block;
-    width: 200px;
     margin: 20px 0;
 }
 
@@ -14,7 +13,7 @@
     text-decoration: none;
     font-weight: bold;
     padding: 0 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #nav a.active {

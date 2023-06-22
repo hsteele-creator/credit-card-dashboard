@@ -13,7 +13,6 @@ const Profile = () => {
   // const currentUserName = store[store.currentUser].name.split(" ")[0];
   const currentUserName = store.currentUser;
 
-
   return (
     <>
       <div id="profile-main">
